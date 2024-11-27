@@ -1,0 +1,21 @@
+{
+  "name": "final-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "dotenvx run -- node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.24.4",
+    "@supabase/supabase-js": "^2.46.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.2.0"
+  }
+}
